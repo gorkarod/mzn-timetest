@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head lang="de">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>rollup-starter-app</title>
+
+    <style>
+      body {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        color: #333;
+        font-weight: 300;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><span id="time-now"></span></h1>
+    <div class="datarow">
+      <h2>Montag</h2>
+      <div class="datarow-item">
+        <label for="v1">von</label>
+        <input type="time" name="v1" />
+      </div>
+      <div class="datarow-item">
+        <label for="b1">bis</label>
+        <input type="time" name="b1" />
+      </div>
+    </div>
+    <div class="datarow">
+      <h2>Dienstag</h2>
+      <div class="datarow-item">
+        <label for="v2">von</label>
+        <input type="time" name="v2" />
+      </div>
+      <div class="datarow-item">
+        <label for="b2">bis</label>
+        <input type="time" name="b2" />
+      </div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
